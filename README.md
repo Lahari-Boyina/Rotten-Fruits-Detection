@@ -90,3 +90,38 @@ Rotten-Fruits-Detection/
 ├── requirements.txt
 └── README.md
 
+📈 Results
+
+Achieved strong validation accuracy
+
+Reduced overfitting using Dropout and augmentation
+
+Demonstrated effectiveness of transfer learning in small datasets
+
+🚀 Future Improvements
+
+Deploy as a web application
+
+Integrate real-time camera detection
+
+Expand dataset for multi-class classification
+
+Optimize model for edge devices
+
+👩‍💻 My Contributions
+
+Implemented transfer learning pipeline
+
+Performed dataset preprocessing
+
+Applied augmentation techniques
+
+Fine-tuned pre-trained model layers
+
+Evaluated model performance
+
+Structured and documented the project professionally
+
+🏁 Conclusion
+
+This project demonstrates the practical application of Transfer Learning in Computer Vision for real-world classification problems. It highlights the efficiency of pre-trained models in achieving high performance with limited computational resources.
