@@ -2,57 +2,16 @@
 👩‍💻 Developed by: Lahari Boyina
 📌 Project Overview
 
-This project focuses on detecting whether fruits and vegetables are fresh or rotten using Transfer Learning with Convolutional Neural Networks (CNNs).
+This project uses Transfer Learning with CNN models to classify fruits and vegetables as fresh or rotten.
+The model leverages pre-trained deep learning architectures to improve accuracy with limited dataset size.
 
-Instead of training a deep learning model from scratch, a pre-trained CNN architecture is leveraged to improve classification accuracy and reduce training time, especially with a limited dataset.
-
-The system can assist in:
-
-Automated food quality inspection
-
-Smart agriculture solutions
-
-Supply chain quality control
-
-🎯 Objectives
-
-Classify fruits and vegetables as Fresh or Rotten
-
-Apply Transfer Learning to improve performance
-
-Reduce overfitting using data augmentation
-
-Evaluate model performance using accuracy and loss metrics
-
-🧠 Model Architecture
-
-Used a pre-trained CNN model (e.g., MobileNet / VGG16)
-
-Removed top classification layers
-
-Added custom Dense layers
-
-Applied Dropout for regularization
-
-Fine-tuned upper layers for better feature adaptation
-
-🔁 Why Transfer Learning?
-
-Training deep neural networks from scratch requires large datasets and high computational power. Transfer Learning allows:
-
-Faster training
-
-Higher accuracy with limited data
-
-Better generalization
-
-🛠 Technologies Used
+🚀 Technologies Used
 
 Python
 
 TensorFlow / Keras
 
-Convolutional Neural Networks (CNN)
+CNN
 
 Transfer Learning
 
@@ -62,66 +21,47 @@ Matplotlib
 
 OpenCV
 
-📊 Training & Evaluation
+🧠 Model Architecture
 
-Image preprocessing and resizing
+Used pre-trained model (e.g., MobileNet / VGG16)
 
-Data augmentation (rotation, zoom, flipping)
+Added custom classification layers
 
-Model training with validation split
+Fine-tuned top layers
 
-Performance monitoring using:
+Used data augmentation to reduce overfitting
 
-Accuracy
+📊 Results
 
-Loss curves
+Achieved XX% validation accuracy
 
-Confusion Matrix (if implemented)
+Improved model generalization using augmentation
 
-📂 Project Structure
+Reduced overfitting through dropout layers
 
-Rotten-Fruits-Detection/
-│
-├── dataset/
-├── models/
-├── notebooks/
-├── train.py
-├── evaluate.py
-├── requirements.txt
-└── README.md
-
-📈 Results
-
-Achieved strong validation accuracy
-
-Reduced overfitting using Dropout and augmentation
-
-Demonstrated effectiveness of transfer learning in small datasets
-
-🚀 Future Improvements
-
-Deploy as a web application
-
-Integrate real-time camera detection
-
-Expand dataset for multi-class classification
-
-Optimize model for edge devices
-
-👩‍💻 My Contributions
+🛠 My Contributions
 
 Implemented transfer learning pipeline
 
-Performed dataset preprocessing
+Preprocessed dataset
 
-Applied augmentation techniques
+Added data augmentation
 
-Fine-tuned pre-trained model layers
+Fine-tuned model layers
 
-Evaluated model performance
+Evaluated performance using confusion matrix
 
-Structured and documented the project professionally
+Structured project for modular training
 
-🏁 Conclusion
+📂 Folder Structure
+├── dataset/
 
-This project demonstrates the practical application of Transfer Learning in Computer Vision for real-world classification problems. It highlights the efficiency of pre-trained models in achieving high performance with limited computational resources.
+├── models/
+
+├── notebooks/
+
+├── train.py
+
+├── evaluate.py
+
+└── README.md
